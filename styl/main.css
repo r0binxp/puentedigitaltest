@@ -18,6 +18,20 @@ body {
   font-family: 'Cuprum', Arial, sans-serif;
   font-weigth: normal;
 }
+h1 {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #d9d9d9;
+  letter-spacing: 7px;
+}
+p {
+  color: #5b5b5b;
+  font-size: 13pt;
+}
+.naranja {
+  color: #f68c30;
+}
 #contenedor {
   max-width: 970px !important;
 }
@@ -134,4 +148,14 @@ small {
 }
 #quienesSomos {
   margin-top: 50px;
+}
+#quienesSomos div:nth-child(2) {
+  padding-left: 40px;
+}
+.columna {
+  border-left: 7px solid #e9e9e9;
+}
+.meteTop {
+  line-height: 27px;
+  margin-top: 0px;
 }
