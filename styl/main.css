@@ -16,12 +16,14 @@ body {
   font-size: 20px;
   color: #fff;
   font-family: 'Cuprum', Arial, sans-serif;
+  font-weigth: normal;
 }
 #contenedor {
   max-width: 970px !important;
 }
 #header {
-  height: 243px;
+  background-image: url("../img/sombrasheader.png");
+  height: 250px;
   background: rgba(255,0,0,0.2);
 }
 .sprite {
@@ -51,6 +53,9 @@ body {
 .sprite.linkedin {
   background-position: -335px 0;
 }
+.sprite.linkedin:hover {
+  cursor: pointer;
+}
 .sprite.logo {
   background-position: -385px 0;
   width: 181px;
@@ -62,17 +67,34 @@ body {
   height: 43px;
 }
 .sprite.sloga {
-  background-position: -607px 0;
+  background-image: url("../img/sprites/slogan.png");
+  height: 30px;
   width: 80px;
-  height: 26px;
 }
 .sprite.sombrabajomenu {
   background-position: -697px 0;
-  width: 633px;
+  float: right;
   height: 40px;
+  margin-top: 8px;
+  width: 633px;
 }
 .sprite.twitter {
   background-position: -1340px 0;
+}
+.sprite.twitter:hover {
+  cursor: pointer;
+}
+.sociales {
+  display: block;
+  float: right;
+  margin-right: -20px;
+}
+.sociales li {
+  display: inline-block;
+}
+small {
+  color: #808080;
+  font-size: 8pt;
 }
 #menu {
   padding: 23px 0px 10px 7px;

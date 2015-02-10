@@ -17,13 +17,16 @@ body
 	font-size 20px
 	color white
 	font-family $fuente
+	font-weigth normal
 
 #contenedor
 	max-width 970px !important
 
 #header
-	height 243px
+	background-image url('../img/sombrasheader.png')
+	height 250px
 	background rgba(255,0,0,0.2)
+
 .sprite
 	background url('../img/sprites/sprites.png') no-repeat top left
 	width 40px
@@ -40,12 +43,39 @@ body
 	&:hover
 		cursor pointer 
 .sprite.leftarrow { background-position: -304px 0; width: 21px; height: 43px; } 
-.sprite.linkedin { background-position: -335px 0; } 
+.sprite.linkedin
+	background-position: -335px 0; 
+	&:hover
+		cursor pointer 
 .sprite.logo { background-position: -385px 0; width: 181px; height: 74px; } 
 .sprite.rightarrow { background-position: -576px 0; width: 21px; height: 43px; } 
-.sprite.sloga { background-position: -607px 0; width: 80px; height: 26px; } 
-.sprite.sombrabajomenu { background-position: -697px 0; width: 633px; height: 40px; } 
-.sprite.twitter { background-position: -1340px 0; }
+.sprite.sloga
+	background-image url('../img/sprites/slogan.png')
+	height: 30px; 
+	width: 80px; 
+	
+.sprite.sombrabajomenu 
+	background-position -697px 0 
+	float right
+	height 40px
+	margin-top 8px
+	width 633px 
+	
+.sprite.twitter
+	background-position: -1340px 0;
+	&:hover
+		cursor pointer 
+
+.sociales
+	display block
+	float right
+	margin-right -20px
+	li
+		display inline-block
+	
+small
+	color: grey
+	font-size 8pt
 
 #menu
 	padding 23px 0px 10px 7px
