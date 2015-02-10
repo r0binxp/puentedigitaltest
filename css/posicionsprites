@@ -1,0 +1,12 @@
+.sprite { background: url('sprite.png') no-repeat top left; width: 18px; height: 40px;  } 
+.sprite.asesoramiento { background-position: 0 0; width: 250px; height: 100px; } 
+.sprite.facebook { background-position: -260px 0; width: 41px; } 
+.sprite.leftslider { background-position: -311px 0; height: 43px; } 
+.sprite.linkedin { background-position: -339px 0; width: 40px; } 
+.sprite.logo { background-position: -389px 0; width: 181px; height: 74px; } 
+.sprite.puntoslideroff { background-position: -580px 0; height: 18px; } 
+.sprite.puntoslideron { background-position: -608px 0; height: 18px; } 
+.sprite.rightslider { background-position: -636px 0; height: 43px; } 
+.sprite.slogan { background-position: -664px 0; width: 83px; height: 26px; } 
+.sprite.sombrabajomenu { background-position: -757px 0; width: 664px; } 
+.sprite.twitter { background-position: -1431px 0; width: 40px; } 

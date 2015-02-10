@@ -1,0 +1,62 @@
+ @font-face
+   font-family Cuprum
+   font-style normal
+   src url(../fuentes/Cuprum-Regular.ttf)
+ @font-face
+   font-family Cuprum
+   font-style bold
+   src url(../fuentes/Cuprum-Bold.ttf)
+  
+$fuente = 'Cuprum', Arial, sans-serif
+
+body
+	background-image url(../img/background.jpg)
+	background-position top center
+	background-repeat no-repeat
+	background-color #ffffff
+	font-size 20px
+	color white
+	font-family $fuente
+
+#contenedor
+	max-width 970px !important
+
+#header
+	height 243px
+	background rgba(255,0,0,0.2)
+.sprite
+	background url('../img/sprites/sprites.png') no-repeat top left
+	width 40px
+	height 39px
+.sprite.asistencia
+	background-position: 0 0
+	width 244px
+	height 100px
+	&:hover
+		cursor pointer 
+		
+.sprite.facebook 
+	background-position -254px 0
+	&:hover
+		cursor pointer 
+.sprite.leftarrow { background-position: -304px 0; width: 21px; height: 43px; } 
+.sprite.linkedin { background-position: -335px 0; } 
+.sprite.logo { background-position: -385px 0; width: 181px; height: 74px; } 
+.sprite.rightarrow { background-position: -576px 0; width: 21px; height: 43px; } 
+.sprite.sloga { background-position: -607px 0; width: 80px; height: 26px; } 
+.sprite.sombrabajomenu { background-position: -697px 0; width: 633px; height: 40px; } 
+.sprite.twitter { background-position: -1340px 0; }
+
+#menu
+	padding 23px 0px 10px 7px
+	font-size 11pt
+	ul
+		li
+			padding-left 20px
+			display inline-block
+			text-decoration none
+			text-shadow 2px 2px 1px black
+			a 
+				color white
+				
+
