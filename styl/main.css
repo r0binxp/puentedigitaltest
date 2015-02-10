@@ -44,7 +44,7 @@ p {
 .naranja {
   color: #f68c30;
 }
-#contenedor {
+.container {
   max-width: 970px !important;
 }
 #header {
@@ -188,4 +188,34 @@ h2 {
 }
 #footer {
   border-top: 10px solid #e9e9e9;
+  margin-top: 40px;
+}
+#empresaslogos ul {
+  padding-left: 0px;
+}
+#empresaslogos ul li {
+  display: inline-block;
+}
+#textoFooter {
+  padding: 0px;
+  margin-top: 20px;
+}
+.lineadebajofooter {
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 2px;
+}
+.fondonaranja {
+  background-color: #f68c30;
+  height: 30px;
+}
+.separador {
+  margin-top: 10px;
+}
+.footText {
+  color: #fff;
+  font-size: 14px;
+  line-height: 29px;
+}
+.footerpad {
+  margin-right: -10px;
 }
