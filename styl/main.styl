@@ -12,6 +12,8 @@ $grisusar = #e9e9e9
 $naranja = #f68c30
 $grish1 = #d9d9d9
 $parrafo = #5b5b5b
+$grish2 = #3d3d3d
+
 
 body
 	background-image url(../img/background.jpg)
@@ -22,6 +24,8 @@ body
 	color white
 	font-family $fuente
 	font-weigth normal
+span 
+	font-size 14px
 
 h1
 	font-family $fuente
@@ -29,9 +33,17 @@ h1
 	text-transform uppercase
 	color $grish1
 	letter-spacing 7px
+h3
+	font-family $fuente
+	color $grish2
+	font-size 18px
+
 p 
 	color $parrafo
 	font-size 13pt
+.lineadebajo
+	border-bottom 1px solid $grisusar
+	margin-bottom 20px
 	
 .naranja
 	color $naranja
@@ -86,7 +98,7 @@ p
 	background-position -697px 0 
 	float right
 	height 40px
-	margin-top 8px
+	margin-top 9px
 	width 633px 
 	
 .sprite.twitter
@@ -153,3 +165,19 @@ small
 .meteTop
 	line-height 27px
 	margin-top 0px
+
+#galeria
+	margin-top 50px
+	
+h2
+	color $grish2
+	font-family $fuente
+	font-size 22px
+	
+#clientes
+	margin-top 50px
+	img
+		border 1px solid $grisusar
+		margin-bottom 15px
+#footer
+	border-top 10px solid $grisusar

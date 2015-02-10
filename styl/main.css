@@ -18,6 +18,9 @@ body {
   font-family: 'Cuprum', Arial, sans-serif;
   font-weigth: normal;
 }
+span {
+  font-size: 14px;
+}
 h1 {
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 36px;
@@ -25,9 +28,18 @@ h1 {
   color: #d9d9d9;
   letter-spacing: 7px;
 }
+h3 {
+  font-family: 'Cuprum', Arial, sans-serif;
+  color: #3d3d3d;
+  font-size: 18px;
+}
 p {
   color: #5b5b5b;
   font-size: 13pt;
+}
+.lineadebajo {
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 20px;
 }
 .naranja {
   color: #f68c30;
@@ -93,7 +105,7 @@ p {
   background-position: -697px 0;
   float: right;
   height: 40px;
-  margin-top: 8px;
+  margin-top: 9px;
   width: 633px;
 }
 .sprite.twitter {
@@ -158,4 +170,22 @@ small {
 .meteTop {
   line-height: 27px;
   margin-top: 0px;
+}
+#galeria {
+  margin-top: 50px;
+}
+h2 {
+  color: #3d3d3d;
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 22px;
+}
+#clientes {
+  margin-top: 50px;
+}
+#clientes img {
+  border: 1px solid #e9e9e9;
+  margin-bottom: 15px;
+}
+#footer {
+  border-top: 10px solid #e9e9e9;
 }
