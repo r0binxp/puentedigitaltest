@@ -22,9 +22,7 @@ body {
   max-width: 970px !important;
 }
 #header {
-  background-image: url("../img/sombrasheader.png");
   height: 250px;
-  background: rgba(255,0,0,0.2);
 }
 .sprite {
   background: url("../img/sprites/sprites.png") no-repeat top left;
@@ -50,6 +48,9 @@ body {
   width: 21px;
   height: 43px;
 }
+.sprite.leftarrow:hover {
+  cursor: pointer;
+}
 .sprite.linkedin {
   background-position: -335px 0;
 }
@@ -65,6 +66,9 @@ body {
   background-position: -576px 0;
   width: 21px;
   height: 43px;
+}
+.sprite.rightarrow:hover {
+  cursor: pointer;
 }
 .sprite.sloga {
   background-image: url("../img/sprites/slogan.png");
@@ -108,4 +112,26 @@ small {
 }
 #menu ul li a {
   color: #fff;
+}
+#imagenSlider {
+  border-bottom: 10px solid #e9e9e9;
+  margin-bottom: 10px;
+}
+#controlSlider ul li {
+  display: inline-block;
+}
+#estadoSlider ul li {
+  display: inline-block;
+}
+.puntos {
+  width: 16px;
+  height: 16px;
+  background-color: #e9e9e9;
+  border-radius: 16px;
+}
+.puntaActivo {
+  background-color: #f68c30;
+}
+#quienesSomos {
+  margin-top: 50px;
 }
